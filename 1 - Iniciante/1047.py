@@ -4,8 +4,8 @@ minuto_total = mF - mI
 hora_total = hF - hI
 
 if minuto_total < 0:
-	minuto_total += 60
-	hora_total -= 1
+    minuto_total += 60
+    hora_total -= 1
 
 if hora_total < 0:
     hora_total += 24
